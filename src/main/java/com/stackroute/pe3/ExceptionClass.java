@@ -16,13 +16,13 @@ public class ExceptionClass {
 
     public static void main(String[] args) {
         try {
-            ExceptionClass ex = new ExceptionClass("Akhila");
-            int length = ex.getLength();//find the length of string
+            ExceptionClass e = new ExceptionClass("Akhila");
+            int length = e.getLength();//find the length of string
 
 
             if (length > 2)//if length greater than 2 limit exceeded exception occurs
                 throw new LimitExceededException(name);//throw exception
-            System.out.println("Inside try block");//if limit not exceeded
+            System.out.println("Inside try block");//limit not exceeded
 
 
         } catch (Exception LimitExceededException) {//catch exception

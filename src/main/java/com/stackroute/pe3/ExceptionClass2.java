@@ -15,18 +15,18 @@ public class ExceptionClass2 {
             int[] array = new int[-7];
 
             System.out.println("Inside try block");
-        } catch (ArrayIndexOutOfBoundsException ex) //catch statement for array index out of bounds
+        } catch (ArrayIndexOutOfBoundsException ex) //catch array index out of bounds
         {
             System.out.println("Exception caught in Catch block");
-        } catch (NullPointerException ex) //catch statement for null pointer exception
+        } catch (NullPointerException ex) //catch  null pointer exception
         {
             System.out.println("Exception caught");
-        } catch (NegativeArraySizeException ex) { //catch statement for negative array size
+        } catch (NegativeArraySizeException ex) { //catch negative array size
             System.out.println("EXception caught");
         }
 
 
-        System.out.println("Outside try-catch clause");
+        System.out.println("Outside try-catch block");
     }
 }
 

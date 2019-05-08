@@ -16,11 +16,12 @@ public class Date {
         c.set(Calendar.DAY_OF_WEEK, Calendar.MONDAY);
 
         System.out.println();
-        // Print dates of the current week starting on Monday
-        DateFormat df = new SimpleDateFormat("EEE dd/MM/yyyy");
-        System.out.println(df.format(c.getTime()));
+
+        // Print dates of the current week that starts on Monday
+        DateFormat d = new SimpleDateFormat("EEE dd/MM/yyyy");
+        System.out.println(d.format(c.getTime()));
         c.add(Calendar.DATE, 6);
-        System.out.println(df.format(c.getTime()));
+        System.out.println(d.format(c.getTime()));
         System.out.println();
     }
 }
