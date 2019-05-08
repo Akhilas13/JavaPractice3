@@ -4,7 +4,7 @@
 
 package com.stackroute.pe3;
 
-public class ExceptionClass2 {
+public class Exception2 {
     public static void main(String[] args) {
 
         int[] arr = new int[4];
@@ -15,13 +15,13 @@ public class ExceptionClass2 {
             int[] array = new int[-7];
 
             System.out.println("Inside try block");
-        } catch (ArrayIndexOutOfBoundsException ex) //catch array index out of bounds
+        } catch (ArrayIndexOutOfBoundsException e) //catch array index out of bounds
         {
             System.out.println("Exception caught in Catch block");
-        } catch (NullPointerException ex) //catch  null pointer exception
+        } catch (NullPointerException e) //catch  null pointer exception
         {
             System.out.println("Exception caught");
-        } catch (NegativeArraySizeException ex) { //catch negative array size
+        } catch (NegativeArraySizeException e) { //catch negative array size
             System.out.println("EXception caught");
         }
 

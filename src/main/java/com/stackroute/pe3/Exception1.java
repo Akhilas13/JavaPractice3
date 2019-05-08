@@ -6,17 +6,17 @@ package com.stackroute.pe3;
 
 import javax.naming.LimitExceededException;
 
-public class ExceptionClass {
+public class Exception1 {
 
     private static String name;
 
-    public ExceptionClass(String name) {
-        ExceptionClass.name = name;
+    public Exception1(String name) {
+        Exception1.name = name;
     }
 
     public static void main(String[] args) {
         try {
-            ExceptionClass e = new ExceptionClass("Akhila");
+            Exception1 e = new Exception1("Akhila");
             int length = e.getLength();//find the length of string
 
 
