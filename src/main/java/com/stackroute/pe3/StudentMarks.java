@@ -11,8 +11,8 @@ public class StudentMarks {
         Scanner input = new Scanner(System.in);
         System.out.println("enter the number of students");
         int numOfStudents = input.nextInt();//read the number of students
-        StudentMarks avg = new StudentMarks();
-        avg.gradeAverage(numOfStudents);
+        StudentMarks average = new StudentMarks();
+        average.gradeAverage(numOfStudents);
     }
 
     public void gradeAverage(int numOfStudents) {

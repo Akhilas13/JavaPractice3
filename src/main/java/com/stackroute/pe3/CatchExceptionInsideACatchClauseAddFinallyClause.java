@@ -6,18 +6,18 @@ package com.stackroute.pe3;
 
 import javax.naming.LimitExceededException;
 
-public class Exception1 {
+public class CatchExceptionInsideACatchClauseAddFinallyClause {
 
     private static String name;
 
-    public Exception1(String name) {
-        Exception1.name = name;
+    public CatchExceptionInsideACatchClauseAddFinallyClause(String name) {
+        CatchExceptionInsideACatchClauseAddFinallyClause.name = name;
     }
 
     public static void main(String[] args) {
         try {
-            Exception1 e = new Exception1("Akhila");
-            int length = e.getLength();//find the length of string
+            CatchExceptionInsideACatchClauseAddFinallyClause catchExceptionInsideACatchClauseAddFinallyClause = new CatchExceptionInsideACatchClauseAddFinallyClause("Akhila");
+            int length = catchExceptionInsideACatchClauseAddFinallyClause.getLength();//find the length of string
 
 
             if (length > 2)//if length greater than 2 limit exceeded exception occurs

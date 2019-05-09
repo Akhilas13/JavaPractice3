@@ -15,8 +15,8 @@ public class RemoveVowels {
             strings1[i] = input.nextLine();//read the country names to a string array
 
         }
-        RemoveVowels r = new RemoveVowels();
-        r.remove(strings1, limit);
+        RemoveVowels removeVowels = new RemoveVowels();
+        removeVowels.remove(strings1, limit);
 
     }
 

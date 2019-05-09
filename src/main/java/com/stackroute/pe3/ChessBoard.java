@@ -5,8 +5,8 @@ package com.stackroute.pe3;
 public class ChessBoard {
 
     public static void main(String[] args) {
-        ChessBoard b = new ChessBoard();
-        b.Board();
+        ChessBoard chessBoard = new ChessBoard();
+        chessBoard.Board();
 
     }
 

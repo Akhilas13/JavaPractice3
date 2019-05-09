@@ -4,7 +4,7 @@ package com.stackroute.pe3;
 
 import java.util.Scanner;
 
-public class Matrix {
+public class MatrixAddition {
 
     public static void main(String[] args) {
         System.out.println("enter the number of rows");
@@ -12,7 +12,7 @@ public class Matrix {
         int rows = input.nextInt();
         System.out.println("enter the number of coloumns");
         int coloumns = input.nextInt();
-        Matrix m = new Matrix();
+        MatrixAddition m = new MatrixAddition();
         m.matrixAddition(rows, coloumns);
 
     }

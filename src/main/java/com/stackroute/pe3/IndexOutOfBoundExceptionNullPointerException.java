@@ -4,15 +4,15 @@
 
 package com.stackroute.pe3;
 
-public class Exception2 {
+public class IndexOutOfBoundExceptionNullPointerException {
     public static void main(String[] args) {
 
-        int[] arr = new int[4];
+        int[] array = new int[4];
         try {
-            int i = arr[4];
+            int i = array[4];
             String name = null;
             int length = name.length();
-            int[] array = new int[-7];
+            int[] arrays = new int[-7];
 
             System.out.println("Inside try block");
         } catch (ArrayIndexOutOfBoundsException e) //catch array index out of bounds

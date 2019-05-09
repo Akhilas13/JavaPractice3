@@ -5,14 +5,14 @@ package com.stackroute.pe3;
 
 import java.util.Scanner;
 
-public class Consecutive {
+public class SeriesOfSevenDigitsAreConsecutive {
 
     public static void main(String[] args) {
         int flag = 1;
 
-        Scanner s = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the digits:   ");
-        String input = s.nextLine();//read the string
+        String input = scan.nextLine();//read the string
 
         String[] inputArray = input.split(",");//split using comma assign to string array
         int[] inputArrayInteger = new int[4];
