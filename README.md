@@ -2,7 +2,7 @@
 from the keyboard, and saves it in an int variable called numOfStudents. It then prompts user for the
 grades of each of the students and saves them in an int array called stuGrades. Your program shall
 check that the grade is between 0 and 100 else has to trow an error message.
--------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
 2.Write a program to compute the addition of two matrix, Read the number of rows and columns
 as input, also the values of each matrix
 Output:
@@ -17,7 +17,7 @@ Sum of the matrices:-
 10
 10
 10
------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
 3. Write a java program to calculate first and last date of a week.
 Output:
 First Date of Week:
